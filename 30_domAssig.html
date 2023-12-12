@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & JavaScript are crucial technologies</h1>
+
+            <p>The web would not work without them </p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li class="skill">Flexible</li>
+                <li class="skill">Available</li>
+                <li class="skill">Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+        const mainHeading = document.querySelector("h1");
+        console.log(mainHeading);
+
+        console.log('=======Store All The Advantages============');
+        const AllAdv = document.querySelectorAll (".skill")
+        console.log(AllAdv [0].innerHTML);
+        console.log(AllAdv [1].innerHTML);
+        console.log(AllAdv [2].innerHTML);
+
+        const advDiv = document.querySelector("#advantages")
+        console.log(advDiv);
+        const classEle =document.querySelectorAll(".skill")
+        console.log(classEle [0]);
+        console.log(classEle [1]);
+        console.log(classEle[2]);
+    </script>
+</body>
+</html>
